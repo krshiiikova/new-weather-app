@@ -1,0 +1,26 @@
+body {
+  font-family: "Alumni Sans", sans-serif;
+}
+.container {
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 100px auto;
+  max-width: 750px;
+  display: block;
+  padding: 50px;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+}
+h2,
+h3 {
+  text-align: right;
+  margin: 0;
+}
+.col-4 {
+  padding: 0;
+}
+.btn {
+}
