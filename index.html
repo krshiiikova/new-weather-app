@@ -27,30 +27,79 @@
   </head>
   <body>
     <div class="container">
-      <span>
-        <h1>WEATHER IN KYIV</h1>
+      <header>
+        <h1>WEATHER IN <strong>KYIV</strong></h1>
         <span>
           <ul class="info">
             <li>friday, 10 am</li>
             <li>clear</li>
           </ul>
         </span>
-      </span>
 
-      <form>
         <input
           type="text"
-          class="form-control"
+          class="form-control rounded-pill"
           placeholder="Search for a city"
         />
 
-        <button type="submit" class="btn btn-primary mb-3">Click</button>
-      </form>
-      <ul>
-        <li>precipitation</li>
-        <li>humidity</li>
-        <li>wind</li>
-      </ul>
+        <button type="submit" class="btn btn-secondary rounded-pill">
+          Click
+        </button>
+      </header>
+      <main>
+        <ul class="weather">
+          <li>precipitation</li>
+          <li>humidity</li>
+          <li>wind</li>
+        </ul>
+      </main>
+
+      <footer>
+        <div class="row">
+          <div class="col forecast">
+            sun
+            <div>
+              min 10 <br />
+              max 20
+            </div>
+          </div>
+          <div class="col forecast">
+            sat
+            <div>
+              min 6 <br />
+              max 15
+            </div>
+          </div>
+          <div class="col forecast">
+            mon
+            <div>
+              min 15 <br />
+              max 30
+            </div>
+          </div>
+          <div class="col forecast">
+            tue
+            <div>
+              min 18 <br />
+              max 32
+            </div>
+          </div>
+          <div class="col forecast">
+            wed
+            <div>
+              min 20 <br />
+              max 35
+            </div>
+          </div>
+          <div class="col forecast">
+            thu
+            <div>
+              min 10 <br />
+              max 25
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
